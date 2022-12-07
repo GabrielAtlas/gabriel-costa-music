@@ -1,3 +1,29 @@
+@font-face {
+  font-family: UnknownFont;
+  font-weight: bold;
+  src: url("/fonts/UnknownFont.ttf");
+}
+
 body {
   background: black;
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+}
+
+body * {
+  font-family: UnknownFont;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+div {
+  display: flex;
+  height: 100vh;
+  margin: auto;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
 }
