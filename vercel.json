@@ -1,3 +1,9 @@
 {
-  "cleanUrls": true
+  "cleanUrls": true,
+  "redirects": [
+    {
+      "source": "/wine-and-chill",
+      "destination": "https://soundcloud.com/gabrielcostamusic/wine-chill-ep-01?si=45f9e177ef784dcdb402aef126234bca&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+    }
+  ]
 }
